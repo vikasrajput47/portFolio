@@ -1,0 +1,101 @@
+body{
+    background-color: #f2eaea;
+    margin:0;
+   }
+   .container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px #879d8e9c;
+   }
+  .index{
+    display: flex;
+    padding:2px;
+  }
+  .git{
+    height: 33px;
+border-radius: 37px;
+width: 40px;
+background-color: white;
+margin: -7px 30px;
+  }
+  .list{
+    list-style-type: none;
+  }
+  .num{
+    margin: 14px 28px;
+font-size: 21px;
+  }
+   .midArea{
+    display: flex;
+    justify-content:space-around;
+    margin:70px;
+   }
+  .me{
+    height: 536px;
+    border-radius: 242px;
+  }
+   #item1{
+    text-align: center;
+justify-content: flex-start;
+font-size: 30px;
+padding: 30px;
+text-shadow: 2px 2px 2px #a89dab;
+font-family: 'Oleo Script Swash Caps', cursive;
+  
+   }
+   .name{
+    font-size: 60px;
+font-family: 'Oleo Script Swash Caps', cursive;
+text-shadow: 4px 3px 5px #a89dab;
+   }
+   .qualifications{
+    padding: 39px 68px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    display: block;
+    justify-content: space-evenly;
+margin: 18px 19px;
+  }
+.qualifications{
+
+justify-content: space-between;
+}
+  .edu,.skill,.mid2{
+   justify-content: space-between;
+  }
+  li{
+   list-style: none;
+  }
+ .edu{
+   display: flex;
+   justify-content: space-between;   
+   padding: 88px 137px;
+ }
+ .skill,.mid2{
+   display: flex;
+   justify-content: space-between; 
+   padding: 88px 137px;
+ }
+.skillh,.h{
+text-align: center;
+}
+ .eduImg{
+   height: 200px;
+ }
+ .imgSkill,.projectImg{
+   height:200px;
+ }
+ .skillt,.project,.mid1{
+   text-align: center;
+ }
+ .edu{
+   box-shadow: 2px 2px 9px 3px #c2bebe;
+   margin:40px 2px;
+ }
+ .skill{
+   box-shadow: 2px 2px 9px 3px #c2bebe;
+   margin:40px 2px;
+ }
+ .mid2{
+   box-shadow: 2px 2px 9px 3px #c2bebe;
+   margin:40px 2px;
+ }
