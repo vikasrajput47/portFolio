@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+
 import mainImg from './img/feeling-proud.svg'
 import ContactInfo from './ContactInfo';
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
           <ContactInfo/>
         </div>
         <div className="Box1d">
-          <a href="https://github.com/vikasrajput47/vikasrajput47" target="_blank">
+          <a href="https://github.com/vikasrajput47/vikasrajput47" target="_blank" rel="noreferrer">
             <p className="text">&#11088; Star Me on GitHub</p>
           </a>
         </div>
