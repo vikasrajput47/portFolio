@@ -1,0 +1,212 @@
+@keyframes slideOut {
+  from {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-out {
+  animation-name: slideOut;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in;
+}
+.firstContainer{
+    /* border: 2px solid black; */
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 30rem;
+  }
+  .first1{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: inherit;
+  }
+  .first2{
+    font-family: 'Signika Negative', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: inherit;
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 50%;
+  color: #242343;
+    justify-content: center;
+  }
+  .first1 img{
+    height: inherit;
+  }
+  .project1{
+   font-size: 4rem;
+  }
+  .project2{
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+  }
+  .secondContainer{
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    flex-flow: row;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-top: 5rem;
+  }
+   .second1{
+    border-radius: 0.5rem;
+    /* border: 2px solid red; */
+    height: 11rem;
+    border: 17px solid white;
+    background-color: white;
+    width: 30%;  box-shadow: 4px 4px 11px 2px #6a6265;
+  }
+  .second1a{
+    /* border: 2px solid green; */
+    /* text-align: center; */
+  
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  } 
+  .second1apara1{
+    font-size: 2rem;
+    
+  }
+  .second1apara2{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .second1b{
+    /* border: 2px solid blue; */
+    height: 4.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .second1bpara1{
+    /* border: 2px solid blue; */
+    height: 4.5rem;
+    width: 13rem;
+    display: flex;
+    text-align: initial;
+    align-items: center;
+    font-size: 1.36rem;
+  }
+  .second1bpara2 img{
+    height: 4rem;
+   margin-right: 0.5rem;
+  }
+  
+  @media screen and (max-width: 563px) {
+    .firstContainer{
+      /* border: 2px solid black; */
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+      height: auto;
+    }
+    .first1{
+      justify-content: center;
+      /* border: 2px solid red; */
+      width: 100%;
+      display: flex;
+      height: 17rem;
+    }
+    .first2{
+      font-family: 'Signika Negative', sans-serif;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      margin-top: 2rem;
+      height: inherit;
+      /* border: 2px solid red; */
+      text-align: center;
+      width: 100%;
+    color: #242343;
+      justify-content: center;
+    }
+    .first1 img{
+      height: inherit;
+    }
+    .project1{
+     font-size: 3rem;
+    }
+    .project2{
+      font-size: 2rem;
+      font-family: 'Signika Negative', sans-serif;
+    }
+    .secondContainer{
+      font-family: 'Signika Negative', sans-serif;
+      display: flex;
+      flex-direction: column;
+      /* border: 2px solid black; */
+      justify-content: space-around;
+      align-items: center;
+      height: auto;
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 2rem;
+  
+    }
+     .second1{
+      border-radius: 0.5rem;
+      /* border: 2px solid red; */
+      height: 14rem;
+      border: 17px solid white;
+      background-color: white;
+      width: 79%;
+      margin-top: 1rem;
+      box-shadow: 4px 4px 11px 2px #6a6265;
+    }
+    .second1a{
+      /* border: 2px solid green; */
+      /* text-align: center; */
+    
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    } 
+    .second1apara1{
+      font-size: 2rem;
+      
+    }
+    .second1apara2{
+      margin-top: 0.5rem;
+      font-size: 1.3rem;
+    }
+    .second1b{
+      /* border: 2px solid blue; */
+      height: 4.5rem;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    .second1bpara1{
+      /* border: 2px solid blue; */
+      height: 4.5rem;
+      width: 13rem;
+      display: flex;
+      text-align: initial;
+      align-items: center;
+      font-size: 1.36rem;
+    }
+    .second1bpara2 img{
+      height: 4rem;
+     margin-right: 0.5rem;
+    }
+    
+  }
