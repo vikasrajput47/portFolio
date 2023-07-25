@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css'
-
-import mainImg from 'D:/Code/Projects/newPortFolio/my-app/src/components/img/feeling-proud.svg'
+import mainImg from './img/feeling-proud.svg'
 import ContactInfo from './ContactInfo';
 const Home = () => {
   
