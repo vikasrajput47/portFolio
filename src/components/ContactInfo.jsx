@@ -38,7 +38,7 @@ const ContactInfo = () => {
         <ul className="icons">
             {icons.map((icon, index) => (
               <li key={index} className="insideIcon">
-                <a href={icon.link} target="_blank">
+                <a href={icon.link} target="_blank"  rel="noreferrer">
                   <img className="iconImg" src={icon.src} alt={icon.alt} />
                 </a>
               </li>
