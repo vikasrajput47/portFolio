@@ -22,7 +22,7 @@ const Contact= () => {
           <ContactInfo/>
         </div>
         <div className="contact2d">
-          <a href={resume} target='_blank'>My Resume</a>
+          <a href={resume} target='_blank'  rel="noreferrer">My Resume</a>
         </div>
       </div>
     </div>
