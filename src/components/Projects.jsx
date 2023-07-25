@@ -27,7 +27,7 @@ const Projects = () => {
             &#x270D; Gym Website
             </p>
             <p className="second1apara2">
-            Created a responsice website <a  style={{textDecoration:'underline'}} href="https://btech-gym-wala.netlify.app/" target='_blank'>Btech-Gym-Wala</a>
+            Created a responsice website <a  style={{textDecoration:'underline'}} href="https://btech-gym-wala.netlify.app/" target='_blank' rel="noreferrer">Btech-Gym-Wala</a>
             </p>
           </div>
           <div className="second1b">
@@ -45,7 +45,7 @@ const Projects = () => {
             &#x270D; Weather wallah
             </p>
             <p className="second1apara2">
-            Created a weather finding app <a  style={{textDecoration:'underline'}} href="https://vikas-weather-wallah.netlify.app/" target='_blank'>Weather-wallah</a>
+            Created a weather finding app <a  style={{textDecoration:'underline'}} href="https://vikas-weather-wallah.netlify.app/" target='_blank'  rel="noreferrer">Weather-wallah</a>
             </p>
           </div>
           <div className="second1b">
@@ -63,7 +63,7 @@ const Projects = () => {
             &#x270D; Youtube Clone
             </p>
             <p className="second1apara2">
-            Created a simple clone web app <a style={{textDecoration:'underline'}} href="https://vikas-youtubeclone.netlify.app/" target='_blank'>youtubeClone</a>
+            Created a simple clone web app <a style={{textDecoration:'underline'}} href="https://vikas-youtubeclone.netlify.app/" target='_blank'  rel="noreferrer">youtubeClone</a>
             </p>
           </div>
           <div className="second1b">
