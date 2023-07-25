@@ -25,13 +25,13 @@ const Education = () => {
           <div className="educationBox1bb">
             <ul className="icons">
               <li className="insideIcon">
-                <a href="https://www.hackerrank.com/vikasrajpoot479?hr_r=1" target="_blank"><img src={hr} alt="" className="iconImg" /></a>
+                <a href="https://www.hackerrank.com/vikasrajpoot479?hr_r=1" target="_blank" rel="noreferrer"><img src={hr} alt="" className="iconImg" /></a>
               </li>
               <li className="insideIcon">
-                <a href="https://www.codechef.com/users/vikasrajpoot47" target="_blank"><img src={codechef} alt="" className="iconImg" /></a>
+                <a href="https://www.codechef.com/users/vikasrajpoot47" target="_blank" rel="noreferrer"><img src={codechef} alt="" className="iconImg" /></a>
               </li>
               <li className="insideIcon">
-                <a href="https://auth.geeksforgeeks.org/user/vikasrajpoot479" target="_blank"><img src={gfg} alt="" className="iconImg" /></a>
+                <a href="https://auth.geeksforgeeks.org/user/vikasrajpoot479" target="_blank" rel="noreferrer"><img src={gfg} alt="" className="iconImg" /></a>
               </li>
             </ul>
           </div>
