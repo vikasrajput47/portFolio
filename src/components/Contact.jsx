@@ -3,7 +3,7 @@ import img from './img/1.png'
 import './Contact.css'
 import contact from './img/contact.png'
 import ContactInfo from './ContactInfo';
-import resume from './img/resumeVikas.pdf'
+import resume from './img/vikasResume.pdf'
 const Contact= () => {
   return (
     <div>
