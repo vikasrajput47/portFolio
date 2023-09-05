@@ -24,7 +24,7 @@ const Projects = () => {
         <div className="second1" >
           <div className="second1a">
             <p className="second1apara1">
-            &#x270D; Gym Website
+            &#x270D; Gym Web App
             </p>
             <p className="second1apara2">
             Created a responsice website <a  style={{textDecoration:'underline'}} href="https://btech-gym-wala.netlify.app/" target='_blank' rel="noreferrer">Btech-Gym-Wala</a>
