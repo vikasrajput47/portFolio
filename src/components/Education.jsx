@@ -38,7 +38,7 @@ const Education = () => {
         </div>
 
       </div>
-      <p className="degree">Degress</p>
+      <p className="degree">Degrees</p>
       <div className="educationBox2" data-aos="fade-up">
         <div className="innerEducationBox">
           <div className="innerEducationBox1">
